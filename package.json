@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "prestart": "ng build && ngc",
+    "prestart": "ng build --prod && ngc",
     "start": "ts-node src/server.ts"
   },
   "private": true,
@@ -23,7 +23,7 @@
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
-    "@angular/cli": "1.2.1",
+    "@angular/cli": "^1.2.6",
     "@angular/compiler-cli": "^4.0.2",
     "@types/jasmine": "2.5.47",
     "@types/node": "7.0.13",
